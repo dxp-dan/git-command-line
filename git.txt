@@ -21,3 +21,5 @@ git push --set-upstream origin '本地分支名' //设置push默认的分支
 git show //查看最新一次的commit的具体修改
 git show 'show-commitID' //根据commit hashID 查看具体修改
 git show 'show-commitID' 'fileName' //根据commit hashID 查看具体文件中的具体修改
+git diff //不加参数即默认比较工作区与暂存区
+git diff HEAD //比较工作区和最新本地库
