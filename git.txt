@@ -15,3 +15,6 @@ git pull //拉取远程仓+合并
 git fetch //拉取远程仓内容
 git merge //合并
 git config --global core.autocrlf input #提交到git是自动将换行符转换为lf
+git remote add origin 'address' //
+git push origin '本地分支名' //推向制定的分支，最强暴的方法。 
+git push --set-upstream origin '本地分支名' //设置push默认的分支
