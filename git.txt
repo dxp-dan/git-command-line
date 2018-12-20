@@ -18,3 +18,6 @@ git config --global core.autocrlf input #提交到git是自动将换行符转换
 git remote add origin 'address' //
 git push origin '本地分支名' //推向制定的分支，最强暴的方法。 
 git push --set-upstream origin '本地分支名' //设置push默认的分支
+git show //查看最新一次的commit的具体修改
+git show 'show-commitID' //根据commit hashID 查看具体修改
+git show 'show-commitID' 'fileName' //根据commit hashID 查看具体文件中的具体修改
